@@ -9,6 +9,8 @@
 
 
 <script>
+import BookItem from './BookItem';
+
 export default {
   name: 'BookList',
   components: {
@@ -24,9 +26,7 @@ export default {
       ]
     }
   }
-}
-
-import BookItem from './BookItem';
+};
 </script>
 
 
